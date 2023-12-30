@@ -38,8 +38,8 @@ services:
     links:
       - db:database
     # environment:
-    #   ETHEREUM_JSONRPC_HTTP_URL: https://sherpa.everestchain.net/
-    #   ETHEREUM_JSONRPC_TRACE_URL: https://sherpa.everestchain.net/
+    #   ETHEREUM_JSONRPC_HTTP_URL: http://sherpa.everestchain.net/
+    #   ETHEREUM_JSONRPC_TRACE_URL: http://sherpa.everestchain.net/
     #   ETHEREUM_JSONRPC_WS_URL: wss://sherpa.everestchain.net/ws
     #   CHAIN_ID: '8848'
 

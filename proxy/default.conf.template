@@ -101,7 +101,7 @@ server {
 
     proxy_hide_header Access-Control-Allow-Origin;
     proxy_hide_header Access-Control-Allow-Methods;
-    add_header 'Access-Control-Allow-Origin' 'https://sherpa.omnixscan.com' always;
+    add_header 'Access-Control-Allow-Origin' 'http://sherpa.omnixscan.com' always;
     add_header 'Access-Control-Allow-Credentials' 'true' always;
     add_header 'Access-Control-Allow-Methods' 'PUT, GET, POST, OPTIONS, DELETE, PATCH' always;
 
