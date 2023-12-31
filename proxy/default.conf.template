@@ -46,7 +46,7 @@ server {
 
 server {
     listen 443 ssl;
-    server_name visualizer.sherpa.omnixscan.com;
+    server_name visualizer_sherpa.omnixscan.com;
 
     ssl_certificate /etc/nginx/templates/sherpa.omnixscan.com/certificate.crt;
     ssl_certificate_key /etc/nginx/templates/sherpa.omnixscan.com/private.key;
@@ -90,7 +90,7 @@ server {
 
 server {
     listen 443 ssl;
-    server_name stats.sherpa.omnixscan.com;
+    server_name stats_sherpa.omnixscan.com;
     proxy_http_version 1.1;
 
     ssl_certificate /etc/nginx/templates/sherpa.omnixscan.com/certificate.crt;
